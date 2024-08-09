@@ -166,7 +166,7 @@ if(MSVC)
 		  endif()
 
 		  set_target_properties(${PROJECT_NAME} PROPERTIES COMPILE_FLAGS ${COMPILE_FLAGS_PLH})
-		  target_link_libraries(${PROJECT_NAME} PRIVATE optimized -DEBUG) # mhhm ya pdbs
+		  target_link_libraries(${PROJECT_NAME} PRIVATE)
 	endif()
 
 endif()
